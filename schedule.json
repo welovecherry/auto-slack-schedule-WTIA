@@ -1,15 +1,792 @@
 {
-  "_readme": "Add one entry per class day under 'days'. Key = date in YYYY-MM-DD (Pacific time). The script posts that day's schedule to Slack. Days not listed here send nothing.",
+  "_readme": "Add one entry per class day under 'days'. Key = date in YYYY-MM-DD (Pacific time). The script posts that day's schedule to Slack. Days not listed here send nothing. Items without a 'time' show as a plain bullet.",
   "timezone": "America/Los_Angeles",
   "days": {
+    "2026-06-22": {
+      "title": "Monday, June 22",
+      "items": [
+        {
+          "activity": "Students Arrive"
+        },
+        {
+          "activity": "Program Orientation + IKEA — WAC"
+        }
+      ]
+    },
     "2026-06-23": {
       "title": "Tuesday, June 23",
       "items": [
-        { "time": "10:00 – 11:30", "activity": "Program Orientation — WTIA", "location": "Startup Hall" },
-        { "time": "11:30 – 12:00", "activity": "Program Orientation & Tour — UW CoMotion", "location": "Startup Hall" },
-        { "time": "12:00 – 2:00",  "activity": "Lunch Break / Student Introductions / Networking", "location": "Startup Hall" },
-        { "time": "2:00 – 3:00",   "activity": "Starting with Why / Mission, Vision, and Purpose", "location": "Startup Hall" },
-        { "time": "3:00 – 5:00",   "activity": "Ideation Frameworks and Bad Idea Filters", "location": "Startup Hall" }
+        {
+          "time": "10:00 – 11:30",
+          "activity": "Program Orientation — WTIA",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "activity": "Program Orientation & Tour — UW CoMotion",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 2:00",
+          "activity": "Lunch Break / Student Introductions / Networking",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "2:00 – 3:00",
+          "activity": "Starting with Why / Mission, Vision, and Purpose",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "3:00 – 5:00",
+          "activity": "Ideation Frameworks and Bad Idea Filters",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-06-24": {
+      "title": "Wednesday, June 24",
+      "items": [
+        {
+          "time": "10:00 – 11:00",
+          "activity": "Problem Discovery / Empathy Mapping",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "activity": "MeeBoss Registration",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "12:00 – 1:00",
+          "activity": "Lunch",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "1:00 – 2:00",
+          "activity": "Ideation Sprint",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "2:00 – 3:00",
+          "activity": "Peer Mentoring",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "3:00 – 5:00",
+          "activity": "Networking / US Business Culture; Receiving & Integrating Feedback; Leading through Feedback; Preparing for First Mentoring Session",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "6:00 – 8:00",
+          "activity": "Group Dinner",
+          "location": "Mamma Melina"
+        }
+      ]
+    },
+    "2026-06-25": {
+      "title": "Thursday, June 25",
+      "items": [
+        {
+          "activity": "Site Visit: Korean Startup Center"
+        },
+        {
+          "activity": "Cultural Activity — Boeing"
+        }
+      ]
+    },
+    "2026-06-26": {
+      "title": "Friday, June 26",
+      "items": [
+        {
+          "time": "10:00 – 11:00",
+          "activity": "Pitch Deck Basics",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "activity": "Leadership: Founder-Market Fit",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 3:00",
+          "activity": "Lunch + Meet Mentors",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "3:00 – 5:00",
+          "activity": "Peer Feedback / Self Work",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-06-29": {
+      "title": "Monday, June 29",
+      "items": [
+        {
+          "time": "10:00 – 5:00",
+          "activity": "Building with LLMs Course",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-06-30": {
+      "title": "Tuesday, June 30",
+      "items": [
+        {
+          "time": "10:00 – 5:00",
+          "activity": "Building with LLMs Course",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-07-01": {
+      "title": "Wednesday, July 1",
+      "items": [
+        {
+          "time": "10:00 – 5:00",
+          "activity": "Building with LLMs Course",
+          "location": "Fluke Hall"
+        }
+      ]
+    },
+    "2026-07-02": {
+      "title": "Thursday, July 2",
+      "items": [
+        {
+          "time": "10:00 – 5:00",
+          "activity": "Building with LLMs Course",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-07-03": {
+      "title": "Friday, July 3",
+      "items": [
+        {
+          "activity": "Independence Day Observed — no class"
+        }
+      ]
+    },
+    "2026-07-06": {
+      "title": "Monday, July 6",
+      "items": [
+        {
+          "time": "10:00 – 5:00",
+          "activity": "Building with LLMs Course (Pitch Day)",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-07-07": {
+      "title": "Tuesday, July 7",
+      "items": [
+        {
+          "time": "10:00 – 12:00",
+          "activity": "Customer Pain Points / Value Proposition",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 2:00",
+          "activity": "Lunch",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "2:00 – 3:00",
+          "activity": "Market Sizing",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "3:00 – 4:00",
+          "activity": "Launch Market Strategy",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "4:00 – 5:00",
+          "activity": "Customer Segmentation",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-07-08": {
+      "title": "Wednesday, July 8",
+      "items": [
+        {
+          "time": "10:00 – 11:00",
+          "activity": "Business Model Canvas",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "activity": "Competitor Mapping; 2x2 Matrix Positioning Strategy",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "12:00 – 1:00",
+          "activity": "Lunch",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "1:00 – 2:00",
+          "activity": "AI Persona Creation with Competitive Analysis (exercise)",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "2:00 – 3:30",
+          "activity": "Customer Development",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "3:30 – 5:00",
+          "activity": "Self Work",
+          "location": "Fluke Hall"
+        }
+      ]
+    },
+    "2026-07-09": {
+      "title": "Thursday, July 9",
+      "items": [
+        {
+          "activity": "Site Visit"
+        },
+        {
+          "activity": "Cultural Activity"
+        }
+      ]
+    },
+    "2026-07-10": {
+      "title": "Friday, July 10",
+      "items": [
+        {
+          "time": "10:00 – 10:30",
+          "activity": "Problem/Solution Fit Analysis",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "activity": "Value Mapping: Pain → Feature → Benefit",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "activity": "Secret Sauce & Unfair Advantage Exercise",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 3:00",
+          "activity": "Lunch + Meet Mentors",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-07-13": {
+      "title": "Monday, July 13",
+      "items": [
+        {
+          "time": "10:00 – 12:00",
+          "activity": "Resume Workshop",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 1:00",
+          "activity": "Lunch",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "1:00 – 3:00",
+          "activity": "Interview Best Practices",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "3:00 – 5:00",
+          "activity": "Innovation Leadership 101: How Leaders Think in Uncertain Environments",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "4:00 – 5:00",
+          "activity": "Intrapreneurship: Innovating from Within",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-07-14": {
+      "title": "Tuesday, July 14",
+      "items": [
+        {
+          "time": "10:00 – 11:00",
+          "activity": "Sales 101",
+          "location": "TBD"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "activity": "Value Based Sales",
+          "location": "TBD"
+        },
+        {
+          "time": "12:00 – 1:00",
+          "activity": "Lunch",
+          "location": "TBD"
+        },
+        {
+          "time": "1:00 – 2:00",
+          "activity": "Prospecting",
+          "location": "TBD"
+        },
+        {
+          "time": "2:00 – 4:00",
+          "activity": "Sales Call Practice",
+          "location": "TBD"
+        },
+        {
+          "time": "4:00 – 4:30",
+          "activity": "ChatGPT for ICP-specific Email Campaigns",
+          "location": "TBD"
+        },
+        {
+          "time": "4:30 – 5:00",
+          "activity": "Crafting a Sales Strategy",
+          "location": "TBD"
+        },
+        {
+          "time": "6:00 – 8:00",
+          "activity": "Group Dinner",
+          "location": "TBD"
+        }
+      ]
+    },
+    "2026-07-15": {
+      "title": "Wednesday, July 15",
+      "items": [
+        {
+          "time": "10:00 – 12:00",
+          "activity": "Marketing Fundamentals",
+          "location": "TBD"
+        },
+        {
+          "time": "12:00 – 1:00",
+          "activity": "Lunch",
+          "location": "TBD"
+        },
+        {
+          "time": "1:00 – 3:00",
+          "activity": "Marketing Fundamentals",
+          "location": "TBD"
+        },
+        {
+          "time": "3:00 – 4:00",
+          "activity": "Peer Feedback",
+          "location": "TBD"
+        },
+        {
+          "time": "4:00 – 5:00",
+          "activity": "Advertisement Workshop",
+          "location": "TBD"
+        }
+      ]
+    },
+    "2026-07-16": {
+      "title": "Thursday, July 16",
+      "items": [
+        {
+          "activity": "Site Visit"
+        },
+        {
+          "activity": "Cultural Activity"
+        }
+      ]
+    },
+    "2026-07-17": {
+      "title": "Friday, July 17",
+      "items": [
+        {
+          "time": "10:00 – 12:00",
+          "activity": "Mock Interview Practice",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 5:00",
+          "activity": "Meet Mentors + Peer Feedback",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-07-20": {
+      "title": "Monday, July 20",
+      "items": [
+        {
+          "time": "10:00 – 11:00",
+          "activity": "Delegation + Scaling Beyond the Founder",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "activity": "Korean founder US preconceptions that differ from reality, and how they can become challenges",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 1:00",
+          "activity": "Lunch — AMA Ryan Lee",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "1:00 – 2:00",
+          "activity": "Peer Feedback / Self Work",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "2:00 – 3:00",
+          "activity": "KPI Workshop",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "3:00 – 3:30",
+          "activity": "Peer Feedback / Self Work",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "3:30 – 5:00",
+          "activity": "Peer Feedback / Self Work",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-07-21": {
+      "title": "Tuesday, July 21",
+      "items": [
+        {
+          "time": "10:00 – 11:30",
+          "activity": "Revenue Models & Unit Economics",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "activity": "Pricing Psychology",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 1:00",
+          "activity": "Lunch",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "1:00 – 2:00",
+          "activity": "Revenue Projections & Runway Basics",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "2:00 – 2:30",
+          "activity": "Financial Modeling with AI (ChatGPT scenario analysis)",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "2:30 – 3:00",
+          "activity": "Financial Forecasting (bottom-up)",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "3:00 – 3:30",
+          "activity": "CAC → LTV Modeling",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "3:30 – 5:00",
+          "activity": "Mock Interview",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-07-22": {
+      "title": "Wednesday, July 22",
+      "items": [
+        {
+          "time": "10:00 – 11:00",
+          "activity": "Receiving & Integrating Feedback; Leading through Feedback",
+          "location": "TBD"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "activity": "Customer Journey Mapping",
+          "location": "TBD"
+        },
+        {
+          "time": "12:00 – 1:00",
+          "activity": "Lunch + Pitch Day Overview",
+          "location": "TBD"
+        },
+        {
+          "time": "1:00 – 1:30",
+          "activity": "Inspiring Others Through Narrative",
+          "location": "TBD"
+        },
+        {
+          "time": "1:30 – 2:00",
+          "activity": "Pitch Narrative Structure, Storytelling, and Flow",
+          "location": "TBD"
+        },
+        {
+          "time": "2:00 – 2:30",
+          "activity": "Vision Setting + Using AI for Narrative Transitions and Storyline Refinement",
+          "location": "TBD"
+        },
+        {
+          "time": "2:30 – 3:00",
+          "activity": "Why Now? Crafting Urgency",
+          "location": "TBD"
+        },
+        {
+          "time": "3:00 – 3:30",
+          "activity": "Executive Presence & Confidence",
+          "location": "TBD"
+        },
+        {
+          "time": "3:30 – 4:00",
+          "activity": "Building Credibility",
+          "location": "TBD"
+        },
+        {
+          "time": "4:00 – 5:00",
+          "activity": "Peer Feedback",
+          "location": "TBD"
+        }
+      ]
+    },
+    "2026-07-23": {
+      "title": "Thursday, July 23",
+      "items": [
+        {
+          "activity": "Site Visit"
+        },
+        {
+          "activity": "Cultural Activity"
+        }
+      ]
+    },
+    "2026-07-24": {
+      "title": "Friday, July 24",
+      "items": [
+        {
+          "time": "10:00 – 11:00",
+          "activity": "Pivoting",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "activity": "LinkedIn Personal Branding",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 5:00",
+          "activity": "Lunch + Mentoring",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-07-27": {
+      "title": "Monday, July 27",
+      "items": [
+        {
+          "activity": "Seattle Tech Week"
+        },
+        {
+          "activity": "Tech Universe Map Event"
+        }
+      ]
+    },
+    "2026-07-28": {
+      "title": "Tuesday, July 28",
+      "items": [
+        {
+          "time": "10:00 – 12:00",
+          "activity": "Pitch Practice",
+          "location": "TBD"
+        },
+        {
+          "activity": "Seattle Tech Week"
+        }
+      ]
+    },
+    "2026-07-29": {
+      "title": "Wednesday, July 29",
+      "items": [
+        {
+          "time": "10:00 – 12:00",
+          "activity": "Pitch Practice",
+          "location": "TBD"
+        },
+        {
+          "activity": "Seattle Tech Week"
+        },
+        {
+          "activity": "Tech Week BBQ"
+        }
+      ]
+    },
+    "2026-07-30": {
+      "title": "Thursday, July 30",
+      "items": [
+        {
+          "activity": "Seattle Tech Week"
+        }
+      ]
+    },
+    "2026-07-31": {
+      "title": "Friday, July 31",
+      "items": [
+        {
+          "activity": "Seattle Tech Week"
+        },
+        {
+          "activity": "Tech Week MeeBoss Hiring Event"
+        }
+      ]
+    },
+    "2026-08-03": {
+      "title": "Monday, August 3",
+      "items": [
+        {
+          "time": "10:00 – 11:00",
+          "activity": "Legal Workshop — Entity Formation",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "activity": "Using AI to build a website",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 1:00",
+          "activity": "Lunch",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "1:00 – 2:00",
+          "activity": "Using AI to build a website",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "2:00 – 4:00",
+          "activity": "UX/UI Localization: Designing for the US Consumer",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-08-04": {
+      "title": "Tuesday, August 4",
+      "items": [
+        {
+          "time": "10:00 – 11:00",
+          "activity": "How to Run a Fundraising Process",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "activity": "Seattle vs the Valley",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 1:00",
+          "activity": "Lunch",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "1:00 – 2:00",
+          "activity": "Financing Terms 101",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "2:00 – 5:00",
+          "activity": "Pitch Prep",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-08-05": {
+      "title": "Wednesday, August 5",
+      "items": [
+        {
+          "time": "10:00 – 5:00",
+          "activity": "Internship Interview Day + Pitch Prep",
+          "location": "TBD"
+        }
+      ]
+    },
+    "2026-08-06": {
+      "title": "Thursday, August 6",
+      "items": [
+        {
+          "activity": "Site Visit"
+        },
+        {
+          "activity": "Cultural Activity"
+        }
+      ]
+    },
+    "2026-08-07": {
+      "title": "Friday, August 7",
+      "items": [
+        {
+          "time": "10:00 – 5:00",
+          "activity": "Meet Mentors / Self Work",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-08-10": {
+      "title": "Monday, August 10",
+      "items": [
+        {
+          "time": "10:00 – 5:00",
+          "activity": "Pitch Dry Run / Self Work",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-08-11": {
+      "title": "Tuesday, August 11",
+      "items": [
+        {
+          "time": "10:00 – 4:00",
+          "activity": "Pitch Day",
+          "location": "Startup Hall"
+        }
+      ]
+    },
+    "2026-08-12": {
+      "title": "Wednesday, August 12",
+      "items": [
+        {
+          "time": "10:00 – 4:00",
+          "activity": "Pitch Day",
+          "location": "Fluke Hall"
+        },
+        {
+          "time": "6:00 – 8:00",
+          "activity": "Group Dinner",
+          "location": "TBD"
+        }
+      ]
+    },
+    "2026-08-13": {
+      "title": "Thursday, August 13",
+      "items": [
+        {
+          "time": "4:00 – 6:00",
+          "activity": "Networking Happy Hour",
+          "location": "TBD"
+        },
+        {
+          "activity": "Site Visit"
+        },
+        {
+          "activity": "Cultural Activity"
+        }
+      ]
+    },
+    "2026-08-14": {
+      "title": "Friday, August 14",
+      "items": [
+        {
+          "activity": "Move Out and Fly Home"
+        }
       ]
     }
   }
