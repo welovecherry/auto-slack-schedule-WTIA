@@ -1,0 +1,16 @@
+{
+  "_readme": "Add one entry per class day under 'days'. Key = date in YYYY-MM-DD (Pacific time). The script posts that day's schedule to Slack. Days not listed here send nothing.",
+  "timezone": "America/Los_Angeles",
+  "days": {
+    "2026-06-23": {
+      "title": "Tuesday, June 23",
+      "items": [
+        { "time": "10:00 – 11:30", "activity": "Program Orientation — WTIA", "location": "Startup Hall" },
+        { "time": "11:30 – 12:00", "activity": "Program Orientation & Tour — UW CoMotion", "location": "Startup Hall" },
+        { "time": "12:00 – 2:00",  "activity": "Lunch Break / Student Introductions / Networking", "location": "Startup Hall" },
+        { "time": "2:00 – 3:00",   "activity": "Starting with Why / Mission, Vision, and Purpose", "location": "Startup Hall" },
+        { "time": "3:00 – 5:00",   "activity": "Ideation Frameworks and Bad Idea Filters", "location": "Startup Hall" }
+      ]
+    }
+  }
+}
