@@ -4,7 +4,7 @@ on:
   schedule:
     # 16:00 UTC = 9:00 AM Pacific (PDT, summer). GitHub uses UTC only and may
     # run a few minutes late — that's expected and fine.
-    - cron: '0 16 * * *'
+    - cron: '0 14 * * *'
   workflow_dispatch:
     inputs:
       force_date:
