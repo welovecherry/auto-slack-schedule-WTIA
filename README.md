@@ -8,7 +8,7 @@
 
 ## Why this exists
 
-This program runs for about two months. Every day, the daily schedule lived inside a PowerPoint, posted in a Slack channel. To find out what was happening today, each of the ~30 people had to open Slack, go to the channel, open the PowerPoint, and look for today's date. Small, but you do it every single morning.
+WTIA program runs for about two months. Every day, the daily schedule lived inside a PowerPoint, posted in a Slack channel. To find out what was happening today, each of the ~30 people had to open Slack, go to the channel, open the PowerPoint, and look for today's date. Small, but you do it every single morning.
 
 This bot removes that chore for the whole group. Every morning it posts **today's schedule** — times, activities, and locations — as simple text, straight into the Slack channel. No clicking into a file. You just read the channel.
 
@@ -144,7 +144,7 @@ A few honest notes:
 
 ## 왜 만들었나
 
-이 프로그램은 약 두 달간 진행됩니다. 매일의 일정은 파워포인트 안에 들어 있고, 그게 슬랙 채널에 올라왔어요. 오늘 뭘 하는지 알려면 약 30명 각자가 슬랙을 열고 → 채널로 가서 → 파워포인트를 열고 → 오늘 날짜를 찾아야 했습니다. 작은 일이지만 매일 아침 반복되죠.
+WTIA 프로그램은 약 두 달간 진행됩니다. 매일의 일정은 파워포인트 안에 들어 있고, 그게 슬랙 채널에 업로드 되어 있습니. 오늘 뭘 하는지 알려면 약 30명 각자가 슬랙을 열고 → 채널로 가서 → 파워포인트를 열고 → 오늘 날짜를 찾아야 했습니다. 작은 일이지만 매일 아침 반복됩니다.
 
 이 봇은 그 번거로움을 모두를 위해 없앱니다. 매일 아침 **오늘의 일정**(시간·활동·장소)을 그냥 텍스트로 슬랙 채널에 올려줘요. 파일을 열 필요 없이, 채널만 보면 됩니다.
 
@@ -163,7 +163,7 @@ A few honest notes:
 
 ## 동작 원리
 
-전체는 네 조각이 함께 일하는 구조예요:
+전체는 네 조각이 함께 일하는 구조입니다
 
 ```
    GitHub 타이머 (cron)          짧은 파이썬 스크립트          슬랙 채널
@@ -215,7 +215,7 @@ auto-slack-schedule-WTIA/
 
 ## 일정 바꾸는 법
 
-GitHub에서 `schedule.json`을 열고 연필(Edit)을 눌러 날짜를 추가·수정합니다. 하루는 이렇게 생겼어요:
+GitHub에서 `schedule.json`을 열고 연필(Edit)을 눌러 날짜를 추가·수정합니다. 하루는 이렇게 생겼습니다.
 
 ```json
 "2026-06-24": {
@@ -255,7 +255,7 @@ GitHub에서 `schedule.json`을 열고 연필(Edit)을 눌러 날짜를 추가·
 └────────── 분
 ```
 
-**중요:** GitHub은 **UTC 시간만** 씁니다(현지 시간 아님). 그래서 현지 시간을 UTC로 변환해야 해요.
+**중요:** GitHub은 **UTC 시간만** 씁니다(현지 시간 아님). 그래서 현지 시간을 UTC로 변환해야 합니다.
 
 - `0 14 * * *` = 14:00 UTC = **태평양 오전 7시** (여름 / PDT).
 - 오전 9시로 하고 싶으면? `0 16 * * *`.
