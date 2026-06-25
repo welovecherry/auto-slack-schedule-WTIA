@@ -23,8 +23,8 @@ if not day:
 # Build the Slack message
 lines = [f"*📅 {day['title']} — Today's Schedule*", ""]
 for item in day["items"]:
-    loc = f"   _{item['location']}_" if item.get("location") else ""
-            time_str = f"*{item['time']}* " if item.get("time") else ""
+        loc = f" _{item['location']}_" if item.get("location") else ""
+        time_str = f"*{item['time']}* " if item.get("time") else ""
         lines.append(f"• {time_str}{item['activity']}{loc}")
 text = "\n".join(lines)
 
