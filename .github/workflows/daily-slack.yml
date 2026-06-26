@@ -2,9 +2,8 @@ name: Daily Slack Schedule
 
 on:
   schedule:
-    # 14:00 UTC = 7:00 AM Pacific (PDT, summer). GitHub uses UTC only and may
-    # run a few minutes late — that's expected and fine.
-    - cron: '0 14 * * *'
+    # 00:00 UTC = 5:00 PM Pacific the PREVIOUS day (PDT, summer).
+    - cron: '0 0 * * *'  # Runs at 00:00 UTC (5 PM Pacific previous day)
   workflow_dispatch:
     inputs:
       force_date:
