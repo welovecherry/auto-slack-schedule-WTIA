@@ -14,6 +14,8 @@ tz = ZoneInfo(data.get("timezone", "America/Los_Angeles"))
 # Use FORCE_DATE if provided (manual testing), otherwise tomorrow's date in Pacific time
 force = os.environ.get("FORCE_DATE", "").strip()
 target = force if force else (datetime.now(tz) + timedelta(days=1)).strftime("%Y-%m-%d")
+today = datetime.now(tz).strftime("%Y-%m-%d")
+label = "Today's Schedule" if target == today else "Tomorrow's Schedule"
 
 day = data["days"].get(target)
 if not day:
@@ -21,7 +23,7 @@ if not day:
     sys.exit(0)
 
 # Build the Slack message
-lines = [f"*📅 {day['title']} — Tomorrow's Schedule*", ""]
+lines = [f"*📅 {day['title']} — {label}*", ""]
 for item in day["items"]:
         loc = f" _{item['location']}_" if item.get("location") else ""
         time_str = f"*{item['time']}* " if item.get("time") else ""
