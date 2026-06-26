@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       force_date:
-        description: 'Test a specific date (YYYY-MM-DD). Leave blank to use today.'
+        description: 'Test a specific date (YYYY-MM-DD). Leave blank to use tomorrow.'
         required: false
         default: ''
 
@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Send today's schedule to Slack
+      - name: Send tomorrow's schedule to Slack
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           FORCE_DATE: ${{ github.event.inputs.force_date }}
