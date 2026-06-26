@@ -2,7 +2,7 @@ import json
 import os
 import sys
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 # Load schedule data
@@ -11,9 +11,9 @@ with open("schedule.json", encoding="utf-8") as f:
 
 tz = ZoneInfo(data.get("timezone", "America/Los_Angeles"))
 
-# Use FORCE_DATE if provided (manual testing), otherwise today's date in Pacific time
+# Use FORCE_DATE if provided (manual testing), otherwise tomorrow's date in Pacific time
 force = os.environ.get("FORCE_DATE", "").strip()
-target = force if force else datetime.now(tz).strftime("%Y-%m-%d")
+target = force if force else (datetime.now(tz) + timedelta(days=1)).strftime("%Y-%m-%d")
 
 day = data["days"].get(target)
 if not day:
@@ -21,7 +21,7 @@ if not day:
     sys.exit(0)
 
 # Build the Slack message
-lines = [f"*📅 {day['title']} — Today's Schedule*", ""]
+lines = [f"*📅 {day['title']} — Tomorrow's Schedule*", ""]
 for item in day["items"]:
         loc = f" _{item['location']}_" if item.get("location") else ""
         time_str = f"*{item['time']}* " if item.get("time") else ""
