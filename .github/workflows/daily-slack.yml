@@ -4,6 +4,9 @@ on:
   schedule:
     # 00:00 UTC = 5:00 PM Pacific the PREVIOUS day (PDT, summer).
     - cron: '0 0 * * *'  # Runs at 00:00 UTC (5 PM Pacific previous day)
+    - cron: '15 0 * * *'  # 00:15 UTC (5:15 PM Pacific previous day)
+    - cron: '30 0 * * *'  # 00:30 UTC (5:30 PM Pacific previous day)
+    - cron: '0 1 * * *'  # 01:00 UTC (6:00 PM Pacific previous day)
   workflow_dispatch:
     inputs:
       force_date:
@@ -14,6 +17,8 @@ on:
 jobs:
   send:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,3 +29,11 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           FORCE_DATE: ${{ github.event.inputs.force_date }}
         run: python send_schedule.py
+      - name: Save sent marker
+        run: |
+          if [ -n "$(git status --porcelain last_sent.txt)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "actions@users.noreply.github.com"
+            git commit -am "Update last_sent marker [skip ci]"
+            git push
+          fi
