@@ -4,10 +4,7 @@ on:
   schedule:
     # 00:00 UTC = 5:00 PM Pacific the PREVIOUS day (PDT, summer).
     - cron: '0 0 * * *'  # Runs at 00:00 UTC (5 PM Pacific previous day)
-    - cron: '15 0 * * *'  # 00:15 UTC (5:15 PM Pacific previous day)
-    - cron: '30 0 * * *'  # 00:30 UTC (5:30 PM Pacific previous day)
-    - cron: '0 1 * * *'  # 01:00 UTC (6:00 PM Pacific previous day)
-  workflow_dispatch:
+    workflow_dispatch:
     inputs:
       force_date:
         description: 'Test a specific date (YYYY-MM-DD). Leave blank to use tomorrow.'
