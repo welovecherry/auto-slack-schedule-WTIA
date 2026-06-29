@@ -22,6 +22,12 @@ if not day:
     print(f"No schedule for {target}; nothing to send.")
     sys.exit(0)
 
+# Skip if this date was already sent (dedup guard for backup crons)
+marker_file = "last_sent.txt"
+last_sent = open(marker_file, encoding="utf-8").read().strip() if os.path.exists(marker_file) else ""
+if not force and last_sent == target:
+    print(f"Already sent for {target}; skipping.")
+    sys.exit(0)
 # Build the Slack message
 lines = [f"*📅 {day['title']} — {label}*", ""]
 for item in day["items"]:
@@ -38,3 +44,4 @@ req = urllib.request.Request(
 )
 with urllib.request.urlopen(req) as resp:
     print(f"Sent schedule for {target}. Slack responded: {resp.status}")
+open(marker_file, "w", encoding="utf-8").write(target)
