@@ -414,37 +414,32 @@
       "items": [
         {
           "time": "10:00 – 11:00",
-          "activity": "Delegation + Scaling Beyond the Founder",
+          "activity": "Peer Feedback and Self-Work",
           "location": "Startup Hall"
         },
         {
           "time": "11:00 – 12:00",
-          "activity": "Korean founder US preconceptions that differ from reality, and how they can become challenges",
+          "activity": "Korean founder US preconceptions that differ from reality, and how they can become challenges (Speaker: Ryan Lee)",
           "location": "Startup Hall"
         },
         {
           "time": "12:00 – 1:00",
-          "activity": "Lunch — AMA Ryan Lee",
+          "activity": "Lunch and time to ask Ryan Lee questions",
           "location": "Startup Hall"
         },
         {
           "time": "1:00 – 2:00",
-          "activity": "Peer Feedback / Self Work",
+          "activity": "Peer Feedback and Self-Work",
           "location": "Startup Hall"
         },
         {
           "time": "2:00 – 3:00",
-          "activity": "KPI Workshop",
+          "activity": "KPI Workshop (Speaker: Steven Sperry)",
           "location": "Startup Hall"
         },
         {
-          "time": "3:00 – 3:30",
-          "activity": "Peer Feedback / Self Work",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "3:30 – 5:00",
-          "activity": "Peer Feedback / Self Work",
+          "time": "3:00 – 4:00",
+          "activity": "Delegation + Scaling Beyond the Founder (Speaker: Steven Sperry)",
           "location": "Startup Hall"
         }
       ]
@@ -453,99 +448,31 @@
       "title": "Tuesday, July 21",
       "items": [
         {
-          "time": "10:00 – 11:30",
-          "activity": "Revenue Models & Unit Economics",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "11:30 – 12:00",
-          "activity": "Pricing Psychology",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "12:00 – 1:00",
-          "activity": "Lunch",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "1:00 – 2:00",
-          "activity": "Revenue Projections & Runway Basics",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "2:00 – 2:30",
-          "activity": "Financial Modeling with AI (ChatGPT scenario analysis)",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "2:30 – 3:00",
-          "activity": "Financial Forecasting (bottom-up)",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "3:00 – 3:30",
-          "activity": "CAC → LTV Modeling",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "3:30 – 5:00",
-          "activity": "Mock Interview",
+          "time": "10:00 am – 3:30 pm",
+          "activity": "Product Development and Pricing (Speaker: Nick Ellingson)",
           "location": "Startup Hall"
         }
       ]
     },
     "2026-07-22": {
-      "title": "Wednesday, July 22",
+      "title": "Wednesday, July 22 – With World Affairs Council Friends!",
       "items": [
         {
-          "time": "10:00 – 11:00",
-          "activity": "Receiving & Integrating Feedback; Leading through Feedback",
-          "location": "TBD"
+          "time": "9:30 am",
+          "activity": "Meet charter bus"
         },
         {
-          "time": "11:00 – 12:00",
-          "activity": "Customer Journey Mapping",
-          "location": "TBD"
+          "time": "10:00 am – 1:00 pm",
+          "activity": "Museum of Flight OR a different museum of your choice (details from Camille)"
         },
         {
-          "time": "12:00 – 1:00",
-          "activity": "Lunch + Pitch Day Overview",
-          "location": "TBD"
+          "time": "1:15 – 2:15 pm",
+          "activity": "Lunch (per diem)"
         },
         {
-          "time": "1:00 – 1:30",
-          "activity": "Inspiring Others Through Narrative",
-          "location": "TBD"
-        },
-        {
-          "time": "1:30 – 2:00",
-          "activity": "Pitch Narrative Structure, Storytelling, and Flow",
-          "location": "TBD"
-        },
-        {
-          "time": "2:00 – 2:30",
-          "activity": "Vision Setting + Using AI for Narrative Transitions and Storyline Refinement",
-          "location": "TBD"
-        },
-        {
-          "time": "2:30 – 3:00",
-          "activity": "Why Now? Crafting Urgency",
-          "location": "TBD"
-        },
-        {
-          "time": "3:00 – 3:30",
-          "activity": "Executive Presence & Confidence",
-          "location": "TBD"
-        },
-        {
-          "time": "3:30 – 4:00",
-          "activity": "Building Credibility",
-          "location": "TBD"
-        },
-        {
-          "time": "4:00 – 5:00",
-          "activity": "Peer Feedback",
-          "location": "TBD"
+          "time": "2:30 – 4:30 pm",
+          "activity": "Meeting with the Port of Seattle and Commissioner Cho — Seattle-Korea business",
+          "location": "Port of Seattle"
         }
       ]
     },
@@ -553,10 +480,49 @@
       "title": "Thursday, July 23",
       "items": [
         {
-          "activity": "Site Visit"
+          "time": "10:00 – 11:00",
+          "activity": "Receiving & Integrating Feedback; Leading through Feedback (Speaker: Nick Ellingson)",
+          "location": "Startup Hall"
         },
         {
-          "activity": "Cultural Activity"
+          "time": "11:00 – 12:00",
+          "activity": "Customer Journey Mapping (Speaker: Nick Ellingson)",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "12:00 – 1:00",
+          "activity": "Lunch + Pitch Day Overview",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "1:00 – 1:30",
+          "activity": "Inspiring Others Through Narrative (Speaker: Nick Ellingson)",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "1:30 – 2:00",
+          "activity": "Pitch Narrative Structure, Storytelling, and Flow (Speaker: Nick Ellingson)",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "2:00 – 2:30",
+          "activity": "Vision Setting + Using AI for Narrative Transitions and Storyline Refinement (Speaker: Nick Ellingson)",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "2:30 – 3:00",
+          "activity": "Why Now? Crafting Urgency (Speaker: Nick Ellingson)",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "3:00 – 3:30",
+          "activity": "Executive Presence & Confidence (Speaker: Nick Ellingson)",
+          "location": "Startup Hall"
+        },
+        {
+          "time": "3:30 – 4:00",
+          "activity": "Building Credibility (Speaker: Nick Ellingson)",
+          "location": "Startup Hall"
         }
       ]
     },
@@ -564,18 +530,13 @@
       "title": "Friday, July 24",
       "items": [
         {
-          "time": "10:00 – 11:00",
-          "activity": "Pivoting",
+          "time": "10:00 am – 12:00 pm",
+          "activity": "Session with Nick Ellingson",
           "location": "Startup Hall"
         },
         {
-          "time": "11:00 – 12:00",
-          "activity": "LinkedIn Personal Branding",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "12:00 – 5:00",
-          "activity": "Lunch + Mentoring",
+          "time": "12:00 – 5:00 pm",
+          "activity": "Lunch and Mentoring",
           "location": "Startup Hall"
         }
       ]
@@ -786,6 +747,15 @@
       "items": [
         {
           "activity": "Move Out and Fly Home"
+        }
+      ]
+    },
+    "2026-07-25": {
+      "title": "Saturday, July 25 (Optional)",
+      "items": [
+        {
+          "time": "8:00 am",
+          "activity": "Meet charter bus — optional trip to Whidbey Island & Deception Pass: visit Deception Pass, ride a ferry, visit Fort Casey, and more. Return by 6:00 pm"
         }
       ]
     }
