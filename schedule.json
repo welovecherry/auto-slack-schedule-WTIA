@@ -600,97 +600,102 @@
         }
       ]
     },
-    "2026-08-03": {
-      "title": "Monday, August 3",
-      "items": [
-        {
-          "time": "10:00 – 11:00",
-          "activity": "Legal Workshop — Entity Formation",
-          "location": "Startup Hall"
+"2026-08-03": {
+        "title": "Monday, August 3",
+        "items": [
+                  {
+                              "time": "10:00 – 11:00 am",
+                              "activity": "Legal Workshop - Entity Formation (Speaker: Ryan Swanson)",
+                              "location": "Startup Hall"
+                  },
+                  {
+                              "time": "11:00 am – 12:00 pm",
+                              "activity": "Personal Branding (Speaker: Arry Yu)",
+                              "location": "Startup Hall"
+                  },
+                  {
+                              "time": "12:00 – 12:50 pm",
+                              "activity": "Lunch",
+                              "location": "Startup Hall"
+                  },
+                  {
+                              "time": "12:50 – 1:00 pm",
+                              "activity": "Trader Joe's Mini-Tote Raffle — remember to fill out the Google form for entries! https://docs.google.com/forms/d/e/1FAIpQLSfbxFOHpy8B0QqL9MTzX-CoPI4jDd6mAJiUvdft0o8VSmB3KQ/viewform",
+                              "location": "Startup Hall"
+                  },
+                  {
+                              "time": "1:00 – 2:00 pm",
+                              "activity": "How to Run a Fundraising Process (Speaker: Arry Yu)",
+                              "location": "Startup Hall"
+                  },
+                  {
+                              "time": "2:00 – 4:00 pm",
+                              "activity": "Seattle vs the Valley (Speaker: Arry Yu)",
+                              "location": "Startup Hall"
+                  },
+                  {
+                              "time": "4:00 – 4:15 pm",
+                              "activity": "Tuesday and Wednesday Info (Speaker: Cami)",
+                              "location": "Startup Hall"
+                  }
+        ]
+},
+        "2026-08-04": {
+                "title": "Tuesday, August 4",
+                "items": [
+                          {
+                                      "activity": "Optional Mt Rainier National Park with World Affairs Council friends!"
+                          },
+                          {
+                                      "time": "8:00 am – 5:00 pm",
+                                      "activity": "Explore our route"
+                          }
+                ]
         },
-        {
-          "time": "11:00 – 12:00",
-          "activity": "Using AI to build a website",
-          "location": "Startup Hall"
+        "2026-08-05": {
+                "title": "Wednesday, August 5",
+                "items": [
+                          {
+                                      "activity": "With World Affairs Council Friends!"
+                          },
+                          {
+                                      "time": "9:30 am",
+                                      "activity": "Meet charter bus"
+                          },
+                          {
+                                      "time": "10:00 am – 12:00 pm",
+                                      "activity": "Amazon Web Services"
+                          },
+                          {
+                                      "time": "12:30 – 1:30 pm",
+                                      "activity": "Lunch and Networking with Expedia employees"
+                          },
+                          {
+                                      "time": "1:30 – 2:30 pm",
+                                      "activity": "Tour of Expedia campus with employees to learn about their work"
+                          }
+                ]
         },
-        {
-          "time": "12:00 – 1:00",
-          "activity": "Lunch",
-          "location": "Startup Hall"
+        "2026-08-06": {
+                "title": "Thursday, August 6",
+                "items": [
+                          {
+                                      "time": "10:00 am – 5:00 pm",
+                                      "activity": "Pitch Review (Speaker: Nick Ellingson and Arry Yu)",
+                                      "location": "Startup Hall"
+                          }
+                ]
         },
-        {
-          "time": "1:00 – 2:00",
-          "activity": "Using AI to build a website",
-          "location": "Startup Hall"
+        "2026-08-07": {
+                "title": "Friday, August 7",
+                "items": [
+                          {
+                                      "time": "10:00 am – 5:00 pm",
+                                      "activity": "Pitch Practice & Mentoring",
+                                      "location": "Startup Hall"
+                          }
+                ]
         },
-        {
-          "time": "2:00 – 4:00",
-          "activity": "UX/UI Localization: Designing for the US Consumer",
-          "location": "Startup Hall"
-        }
-      ]
-    },
-    "2026-08-04": {
-      "title": "Tuesday, August 4",
-      "items": [
-        {
-          "time": "10:00 – 11:00",
-          "activity": "How to Run a Fundraising Process",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "11:00 – 12:00",
-          "activity": "Seattle vs the Valley",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "12:00 – 1:00",
-          "activity": "Lunch",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "1:00 – 2:00",
-          "activity": "Financing Terms 101",
-          "location": "Startup Hall"
-        },
-        {
-          "time": "2:00 – 5:00",
-          "activity": "Pitch Prep",
-          "location": "Startup Hall"
-        }
-      ]
-    },
-    "2026-08-05": {
-      "title": "Wednesday, August 5",
-      "items": [
-        {
-          "time": "10:00 – 5:00",
-          "activity": "Internship Interview Day + Pitch Prep",
-          "location": "TBD"
-        }
-      ]
-    },
-    "2026-08-06": {
-      "title": "Thursday, August 6",
-      "items": [
-        {
-          "activity": "Site Visit"
-        },
-        {
-          "activity": "Cultural Activity"
-        }
-      ]
-    },
-    "2026-08-07": {
-      "title": "Friday, August 7",
-      "items": [
-        {
-          "time": "10:00 – 5:00",
-          "activity": "Meet Mentors / Self Work",
-          "location": "Startup Hall"
-        }
-      ]
-    },
     "2026-08-10": {
       "title": "Monday, August 10",
       "items": [
